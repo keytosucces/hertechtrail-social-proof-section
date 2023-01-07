@@ -1,0 +1,79 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    padding: 6rem 8rem;
+}
+
+.magenta {
+    color: hsl(300, 43%, 22%);
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+main > h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+main p {
+    font-weight : 400;
+}
+
+.review {
+    width: 25em;
+    height: 3rem;
+    border-radius: .5em;
+    background: hsl(300, 24%, 96%);
+    text-align: center;
+    padding: 1em;
+    font-weight: 500;
+}
+
+body aside {
+    padding-left: 13rem;
+    padding-bottom: 2rem;
+}
+
+span {
+    padding-left: 1.5rem;
+}
+
+aside > section + section {
+    margin: 1em 0 0 1em;
+}
+
+#second-rev {
+    margin-left: 5em;
+}
+
+#third-rev {
+    margin-left: 10em;
+}
+
+.buyers {
+    padding-top: 2em;
+}
+
+.verified {
+    border-radius: .5em;
+    background: hsl(300, 43%, 22%);
+    margin: 0 1em;
+    width: 25em;
+    height: 14em;
+    padding: 2em;
+}
+
+img {
+    border-radius: 100%;
+    width: 15%;
+}
+
+#second-buy {
+    margin-top: 2em;
+}
+
+#third-buy {
+    margin-top: 4em;
+}
