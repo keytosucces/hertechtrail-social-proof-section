@@ -12,13 +12,22 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+.pink {
+    color: hsl(333, 80%, 67%);
+}
+
 main > h1 {
     font-weight: 700;
     font-size: 3rem;
+    width: 50%;
 }
 
 main p {
     font-weight : 400;
+}
+
+main {
+    margin-left: 1.2em;
 }
 
 .review {
@@ -29,19 +38,11 @@ main p {
     text-align: center;
     padding: 1em;
     font-weight: 500;
-}
-
-body aside {
-    padding-left: 13rem;
-    padding-bottom: 2rem;
+    margin: 1.5em;
 }
 
 span {
     padding-left: 1.5rem;
-}
-
-aside > section + section {
-    margin: 1em 0 0 1em;
 }
 
 #second-rev {
@@ -76,4 +77,77 @@ img {
 
 #third-buy {
     margin-top: 4em;
+}
+
+@media screen and (max-width: 1400px) {
+
+    body {
+        width: 100vw;
+        position: absolute;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    main > h1 {
+        width: 100%;
+    }
+
+    #second-rev, #third-rev {
+        margin-left: 1.5em;
+    }
+
+    main > p {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 10em;
+    }
+
+    main, body > div {
+        padding-right: 0.5em;
+    }
+
+    .review {
+        height: 5.5rem;
+    }
+
+    .upgrade {
+        font-size: 1.5em;
+        padding-top: 0.5em;
+        padding-left: 0;
+    }
+
+    #third-buy {
+        margin: 2em;
+    }
+
+    .start {
+        justify-content: flex-start;
+    }
+
+    .verified {
+        width: 24em;
+    }
+
+    .buyers {
+        padding-top: 0;
+    }
+
+    svg {
+        margin: 0 0.3em;
+    }
 }
